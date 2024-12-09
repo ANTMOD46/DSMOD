@@ -1,0 +1,14 @@
+<h1>B<h2>
+    <form method = 'get'>
+        <input type='text' name='B_id'>
+        <button type='submit'>Search</button>
+    </form>
+
+    
+<h2>B search<h2>
+    {%for i in mods%}
+    <p> {{i.id}} | {{i.name}} | {{i.instuction}}</p>
+    {%endfor%}
+    
+
+

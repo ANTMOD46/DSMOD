@@ -1,0 +1,20 @@
+- model: AA.Course
+  pk: '002'
+  fields:
+    name: 'AS'
+    instuction: 'ABC'
+    
+    
+- model: AA.Course
+  pk: '003'
+  fields:
+    name: 'AC'
+    instuction: 'ASD'
+    
+
+- model: AA.Course
+  pk: '004'
+  fields:
+    name: 'AM'
+    instuction: 'ADE'
+    
